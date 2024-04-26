@@ -1,0 +1,9 @@
+package pe.edu.upeu.syscenterlife.modelo;
+import lombok.Data;
+@Data
+public class Cliente {
+        private String dniruc;
+        private String nombres;
+        private String documento;
+
+}
